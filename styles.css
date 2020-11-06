@@ -1,0 +1,28 @@
+.footerStyle {
+  background-color: black;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  flex-shrink: 0;
+  border-radius: .1em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  text-align: center;
+  
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+
+
+.top{
+  align-items: center;
+}
+
+body {
+  background-color: tan;
+}
